@@ -31,6 +31,7 @@ class AdelePortfolioApp extends StatelessWidget {
                 ),
               ),
             ),
+            
             Center(
               child: Container(
                 width: MediaQuery.of(context).size.width * 0.8,
@@ -46,8 +47,8 @@ class AdelePortfolioApp extends StatelessWidget {
                     ],
                   ),
                 ),
-                child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                child: const Padding(
+                  padding: EdgeInsets.all(16.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
@@ -55,8 +56,8 @@ class AdelePortfolioApp extends StatelessWidget {
                         radius: 100.0,
                         backgroundImage: AssetImage('assets/adele.jpg'),
                       ),
-                      const SizedBox(height: 16.0),
-                      const Text(
+                      SizedBox(height: 16.0),
+                      Text(
                         'ADELE',
                         style: TextStyle(
                           fontSize: 24.0,
@@ -64,21 +65,21 @@ class AdelePortfolioApp extends StatelessWidget {
                           color: Colors.white,
                         ),
                       ),
-                      const SizedBox(height: 8.0),
-                      const Text(
+                      SizedBox(height: 8.0),
+                      Text(
                         '',
                         style: TextStyle(
                           fontSize: 18.0,
                           color: Color.fromARGB(255, 132, 56, 56),
                         ),
                       ),
-                      const SizedBox(height: 16.0),
+                      SizedBox(height: 16.0),
                       Expanded(
                         child: SingleChildScrollView(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              const Text(
+                              Text(
                                 'About Me',
                                 style: TextStyle(
                                   fontSize: 25.0,
@@ -86,16 +87,16 @@ class AdelePortfolioApp extends StatelessWidget {
                                   color: Color.fromRGBO(159, 7, 7, 1),
                                 ),
                               ),
-                              const SizedBox(height: 8.0),
-                              const Text(
+                              SizedBox(height: 8.0),
+                              Text(
                                 'Adele Laurie Blue Adkins was born on 5 May 1988 in the Tottenham district of London, to an English mother, Penny Adkins, and a Welsh father, Marc Evans. After Evans left when Adele was 2, she was brought up by her mother. She began singing at age 4 and asserts that she became obsessed with voices',
                                 style: TextStyle(
                                   fontSize: 20.0,
                                   color: Colors.white,
                                 ),
                               ),
-                              const SizedBox(height: 16.0),
-                              const Text(
+                              SizedBox(height: 16.0),
+                              Text(
                                 'Featured Projects',
                                 style: TextStyle(
                                   fontSize: 25.0,
@@ -103,8 +104,8 @@ class AdelePortfolioApp extends StatelessWidget {
                                   color: Color.fromRGBO(159, 7, 7, 1),
                                 ),
                               ),
-                              const SizedBox(height: 8.0),
-                              const Text(
+                              SizedBox(height: 8.0),
+                              Text(
                                 '1. Flutter-based mobile app\n2. React-based web application\n3. Node.js backend service',
                                 style: TextStyle(
                                   fontSize: 20.0,
